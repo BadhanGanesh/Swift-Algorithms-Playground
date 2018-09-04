@@ -2,7 +2,7 @@
 
 import UIKit
 
-public func solution(_ N : Int) -> Int {
+public func getLongestBinaryGapFor(_ N : Int) -> Int {
     
     var arrayOfIndexes:[Int] = []
     let binaryString = String(N, radix:2)
@@ -43,4 +43,4 @@ func getCurrentBinaryGapFor(_ array:[Int]) -> Int {
     }
 }
 
-print("The longest binary gap is \(solution(234231046))\n")
+print("The longest binary gap is \(getLongestBinaryGapFor(234231046))\n")
